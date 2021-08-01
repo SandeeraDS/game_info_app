@@ -19,6 +19,6 @@ export class SearchBarComponent implements OnInit {
   public onSubmit(form: NgForm): void {
     const searchName: string = form.value.search;
     form.value.search = null;
-    this.router.navigate(['game_info_app/search', searchName]);
+    this.router.navigate(['search', searchName]);
   }
 }
