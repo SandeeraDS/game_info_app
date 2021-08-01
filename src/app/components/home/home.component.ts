@@ -59,7 +59,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   openGameDetails(id: string): void {
     // this.router.navigate(['details', id]);
     const url = this.router.serializeUrl(
-      this.router.createUrlTree([`/details/${id}`])
+      this.router.createUrlTree([`/game_info_app/details/${id}`])
     );
     window.open(url, '_blank');
   }
