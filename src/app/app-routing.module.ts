@@ -5,15 +5,15 @@ import {DetailsComponent} from './components/details/details.component';
 
 const routes: Routes = [
   {
-    path: 'game_info_app',
+    path: '',
     component: HomeComponent
   },
   {
-    path: 'game_info_app/search/:game-search',
+    path: '/search/:game-search',
     component: HomeComponent
   },
   {
-    path: 'game_info_app/details/:id',
+    path: '/details/:id',
     component: DetailsComponent,
   },
 ];
