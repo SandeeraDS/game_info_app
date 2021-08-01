@@ -13,7 +13,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: '/details/:id',
+    path: '/game_info_app/details/:id',
     component: DetailsComponent,
   },
 ];
